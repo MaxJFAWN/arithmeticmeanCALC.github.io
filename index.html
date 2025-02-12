@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Mean Calculator</title>
+    <script src="scripts/functionScripts.js"></script>
+
+</head>
+<body>
+    <h1>Data Entry</h1>
+    <p><label for="dataInput">Enter a value: </label><input type="text" id="dataInput"></p>
+    <button onclick="addData()">Add Value</button>
+    <button onclick="removeData()">Remove Value</button>
+
+    <br>
+    <h2>Current Dataset</h2>
+    <div id="printDataArray"></div>
+    <br>
+    <h2>Current Mean</h2>
+    <div id="printMeanCalc"></div>
+
+    <br>
+    <br>
+
+    <button onclick="clearData()">Clear Dataset</button>
+
+</body>
+</html>
