@@ -1,4 +1,4 @@
-let data = []
+let data = [];
 
 function addData() {
     let inputData = Number(document.getElementById('dataInput').value);
